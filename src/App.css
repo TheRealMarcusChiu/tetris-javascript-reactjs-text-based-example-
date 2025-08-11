@@ -1,0 +1,129 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(1,61,114);
+    font-size: 20px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.flex-container-outer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.board {
+    margin: 8px;
+
+}
+
+.text-board div {
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.text {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+    font-family: 'Comic Sans MS', 'Arial Black', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+
+    /* Black outline using text-shadow */
+    text-shadow:
+        -2px -2px 0 #FFF,
+        2px -2px 0 #FFF,
+        -2px  2px 0 #FFF,
+        2px  2px 0 #FFF,
+        0px  2px 0 #FFF,
+        2px  0px 0 #FFF,
+        0px -2px 0 #FFF,
+        -2px  0px 0 #FFF;
+}
+
+.next-2 {
+    margin-top: 8px;
+}
+
+
+.text-instructions {
+    margin-top: 12px;
+    background-color: rgb(24,23,22);
+    white-space: pre-line;
+    font-family: 'Comic Sans MS', 'Arial Black', sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.text-instructions-small {
+    padding-top: 10px;
+    background-color: rgb(24,23,22);
+    white-space: pre-line;
+    font-family: 'Comic Sans MS', 'Arial Black', sans-serif;
+    font-weight: bold;
+    font-size: 5px;
+    color: white;
+}
+
+.flex-container-score {
+    width: 180px;
+    display: flex;
+    justify-content: space-between; /* Distributes items with space between them */
+    align-items: center;
+}
+
+.score {
+    font-family: 'Comic Sans MS', 'Arial Black', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+
+    /* Black outline using text-shadow */
+    text-shadow:
+        -2px -2px 0 #FFF,
+        2px -2px 0 #FFF,
+        -2px  2px 0 #FFF,
+        2px  2px 0 #FFF,
+        0px  2px 0 #FFF,
+        2px  0px 0 #FFF,
+        0px -2px 0 #FFF,
+        -2px  0px 0 #FFF;
+}
+
+.score-value {
+    font-family: 'Comic Sans MS', 'Arial Black', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+
+    /* Black outline using text-shadow */
+    text-shadow:
+        -2px -2px 0 #FFF,
+        2px -2px 0 #FFF,
+        -2px  2px 0 #FFF,
+        2px  2px 0 #FFF,
+        0px  2px 0 #FFF,
+        2px  0px 0 #FFF,
+        0px -2px 0 #FFF,
+        -2px  0px 0 #FFF;
+}
+
+.versions {
+    margin-top: 5px;
+}
