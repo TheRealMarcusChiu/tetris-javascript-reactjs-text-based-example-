@@ -721,6 +721,9 @@ function App() {
                             <div>⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</div>
                             <div>⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</div>
                         </div>
+                        <div className="text-bottom">CLICK BOARD</div>
+                        <div className="text-bottom">2</div>
+                        <div className="text-bottom">START & RESTART</div>
                     </div>
                     <div>
                         <div className="text">NEXT</div>
