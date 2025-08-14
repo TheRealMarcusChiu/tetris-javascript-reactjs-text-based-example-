@@ -696,6 +696,7 @@ function App() {
                             <div className="versions">VERSIONS</div>
                             <div><a href="https://tetris.marcuschiu.com">Canvas</a></div>
                             <div><a href="https://tetris-text.marcuschiu.com">Text</a></div>
+                            <div><a href="https://tetris-ascii.marcuschiu.com">ASCII</a></div>
                         </div>
                     </div>
                     <div>
